@@ -1,3 +1,4 @@
+// @ts-ignore  
 import React from 'react'
 import { useQuery } from "react-query";
 import { useEffect, useState } from "react";

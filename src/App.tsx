@@ -1,4 +1,5 @@
 
+// @ts-ignore  
 import './App.css'
 import { QueryClientProvider, QueryClient,useQuery } from 'react-query'
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
