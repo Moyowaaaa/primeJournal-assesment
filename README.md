@@ -17,7 +17,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Features 
 
-+ Dashboard the characters and thier details(name,status,species and type) from the TV show Rick and Morty
++ Dashboard that displays characters and thier details(name,status,species and type) from the TV show Rick and Morty
 
 + Page by page pagination for data rendering
 
@@ -36,14 +36,14 @@ The technologies I used to achieve my solution are:
 
 ## Installation
 
-To install and run the project locally, download/clone the repo and run this following commands:
+To install and run the project locally, download/clone the repo and run the following commands:
 
 ```bash
 npm install
 npm start
 ```
 
-This runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This runs the app in the development mode. Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) to view it in your browser.
 
 
 
