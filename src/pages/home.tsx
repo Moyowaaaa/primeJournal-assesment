@@ -68,13 +68,13 @@ const Home = () => {
         <h1 className='text-center py-4 font-bold text-xl'>Rick and Morty Characters</h1>
     
     <div className='flex flex-wrap gap-10 justify-center'>
-        {data && data?.results.slice(0,10).map((data:data, index:number) => (
+        {data && data?.results.slice(0,16).map((data:data, index:number) => (
             <CharacterCards data={data} key={index} />
          ))}
         </div>
        
         <Pagination 
-    itemsPerPage={10} 
+    itemsPerPage={2} 
     totalItems={data?.info.pages}
     paginate={paginate}
     setPage={setPage}
